@@ -1,0 +1,18 @@
+{
+  "name": "cypress-select-tests-example",
+  "version": "1.0.0",
+  "description": "Example using cypress-select-tests to run only some tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.0.0",
+    "cypress-select-tests": "^1.5.9"
+  }
+}
